@@ -82,6 +82,3 @@ while True:
     
 
     counter += 1
-        
-    
-    '''print((bin(int(e))[2:].zfill(4)).replace(""," "))'''
