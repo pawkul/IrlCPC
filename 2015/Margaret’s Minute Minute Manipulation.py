@@ -25,10 +25,6 @@ for _ in range(4):
 
    counter2 = counter2 / 2
 
-
-print(lst)
-print(lst2)
-
 #adding
 count = 0
 for e in range(1,7):
@@ -54,9 +50,6 @@ for e in range(1,7):
             lst_fin[-e] += lst[-e] + lst2[-e] + count
             count = 0
             
-
-print(lst_fin)
-
 #check if or over 24h and fix if so
 num = int("%i%i"%(lst_fin[0],lst_fin[1]))
 
@@ -64,9 +57,9 @@ if num >= 24:
     num = num % 24
     lst_fin[0], lst_fin[1] = num // 10, num % 10
 
-print(lst_fin)
 
 #print
+print('')
 counter = 0
 x = ''
 while True:
